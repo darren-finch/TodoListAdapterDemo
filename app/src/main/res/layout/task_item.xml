@@ -51,7 +51,7 @@
                 app:layout_constraintBottom_toBottomOf="@+id/taskName"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/taskName"
-                app:srcCompat="@drawable/ic_keyboard_arrow_down" />
+                app:srcCompat="@drawable/ic_keyboard_arrow_down_black_24dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

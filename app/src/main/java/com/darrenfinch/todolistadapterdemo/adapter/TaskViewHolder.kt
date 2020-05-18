@@ -25,13 +25,13 @@ class TaskViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
     private fun expand()
     {
         AnimationUtils.expand(itemView.taskDescription)
-        itemView.dropdownButton.setImageResource(R.drawable.ic_keyboard_arrow_up)
+        itemView.dropdownButton.setImageResource(R.drawable.ic_keyboard_arrow_up_black_24dp)
         isExpanded = true
     }
     private fun collapse()
     {
         AnimationUtils.collapse(itemView.taskDescription)
-        itemView.dropdownButton.setImageResource(R.drawable.ic_keyboard_arrow_down)
+        itemView.dropdownButton.setImageResource(R.drawable.ic_keyboard_arrow_down_black_24dp)
         isExpanded = false
     }
 }
